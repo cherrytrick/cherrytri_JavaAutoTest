@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test" verbose="2" preserve-order="true" parallel="false">
+    <parameter name="测试人员" value="Coding测试" />
+    <test name="testCase1">
+        <classes>
+            <class name="com.testol.auto_cher.TestCase.ExcelTestCase">
+                <methods>
+                    <!--<include name="init"></include>-->
+                    <include name="login"></include>
+                    <!--<include name="postApi"></include>-->
+                    <!--<include name="getApi"></include>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="User allure2" allow-return-values="true">
+        <classes>
+            <class name="com.testol.auto_cher.TestCase.DataBaseGetTestCase" />
+        </classes>
+    </test>
+    <test name="User allure2" allow-return-values="true">
+        <classes>
+            <class name="com.testol.auto_cher.TestCase.DataBasePostTestcase" />
+        </classes>
+    </test>
+
+    <listeners>
+
+        <listener class-name="com.testol.auto_cher.Report.ExtentTestNGReporterListener"></listener>
+
+        <listener class-name="com.testol.auto_cher.Failed.FailedRetryListener"></listener>
+
+    </listeners>
+</suite>
