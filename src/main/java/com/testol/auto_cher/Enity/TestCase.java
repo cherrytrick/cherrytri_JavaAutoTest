@@ -13,8 +13,7 @@ import javax.validation.constraints.NotBlank;
 *
 *测试用例 --PO（Persistent Object）：持久化对象
 *
-*@author CZY
-*@date 2020-5-31 13:43:37
+
 **/
 @Setter
 @Getter
