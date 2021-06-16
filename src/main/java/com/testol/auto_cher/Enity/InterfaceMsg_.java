@@ -6,8 +6,7 @@ import javax.persistence.metamodel.StaticMetamodel;
 /**
 *被测url信息 --实体类校验
 *
-*@author czy
-*@date 2020-5-31 13:43:37
+
 **/
 @StaticMetamodel(InterfaceMsg.class)
 public class InterfaceMsg_ {
