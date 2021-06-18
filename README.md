@@ -1,4 +1,4 @@
-# Test_api接口自动化测试框架
+# cherrytri接口自动化测试框架
 **该项目提供了两种获取testcase的方法，通过excel表和数据库中获取，可以根据具体情况选择不同的方式**
   * 使用excel方式的运行ExcelTestCase，可以得到extent生成的测试报告。
   * 使用数据库方式，可以框架基础上根据需求自由搭配，修改dao层。
